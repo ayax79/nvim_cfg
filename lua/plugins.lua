@@ -69,6 +69,8 @@ return require("packer").startup(function(use)
 		require('crates').setup()
 	    end,
 	}
+
+
 	-- themes
 	use 'arcticicestudio/nord-vim'
 

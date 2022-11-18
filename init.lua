@@ -156,7 +156,6 @@ require('lualine').setup {
   }
 }
 
--- lazy load crates support to cmp
 vim.api.nvim_create_autocmd("BufRead", {
     group = vim.api.nvim_create_augroup("CmpSourceCargo", { clear = true }),
     pattern = "Cargo.toml",
